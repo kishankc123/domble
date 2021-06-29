@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.header {
+  background-color: #2b6777;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 10px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+  background-color: #2b6777;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+}
+
+.nav_links li a :hover {
+  color: black;
+}
