@@ -52,6 +52,7 @@ render(){
  const container={
      width:"100vw",
      height:"100vh",
+     
     
  }
  const main_container={

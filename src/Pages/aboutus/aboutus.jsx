@@ -1,7 +1,6 @@
 import React, { Component } from "react"; 
 import FormHeader from "../detailform/header_detailform";
 
-
 class AboutUs extends Component{
 
     render(){

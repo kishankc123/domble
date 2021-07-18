@@ -56,7 +56,7 @@ padding-top:60px;
 height: 80px;
 `;
 
-export const NavLinks = styled(LinkScroll)
+export const NavLinks = styled(LinkR)
 `
 color: #fff;
 display: flex;
@@ -128,7 +128,7 @@ padding-top:60px;
 height: 100px;
 `;
 
-export const NeckLinks = styled(LinkScroll)
+export const NeckLinks = styled(LinkR)
 `
 color: #000;
 display: flex;

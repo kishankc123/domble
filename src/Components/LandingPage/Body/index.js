@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaBars} from 'react-icons/fa'
+import Login from '../../Login/login';
 
 import {
     Nav, 
@@ -17,7 +18,8 @@ import {
     IconContainer,Div,Rone,BoxContainer,Text,LoginButton} from './bodyElement';
 
 const Body = () => {
-    return (
+
+        return (
         <>
          <Nav>
           <Navbarcontainer>
@@ -37,7 +39,7 @@ const Body = () => {
                   </NavItem>
 
                   <NavItem>
-                      <NavLinks to = "dashboard"> Get paid to test</NavLinks>
+                      <NavLinks to = "/login"> Get paid to test</NavLinks>
                   </NavItem>
 
 
@@ -72,7 +74,7 @@ const Body = () => {
                     </defs>
                     </svg>
                 </IconContainer>
-                  <NeckLinks to = "home"> Test Websites </NeckLinks>
+                  <NeckLinks to = "/login"> Test Websites </NeckLinks>
                   </NeckItem>
              
 
@@ -82,7 +84,7 @@ const Body = () => {
                     <path d="M65.625 7.25C66.66 7.25 67.5 8.062 67.5 9.0625V77.9375C67.5 78.938 66.66 79.75 65.625 79.75H24.375C23.34 79.75 22.5 78.938 22.5 77.9375V9.0625C22.5 8.062 23.34 7.25 24.375 7.25H65.625ZM75 7.25C75 3.248 71.64 0 67.5 0H22.5C18.36 0 15 3.248 15 7.25V79.75C15 83.752 18.36 87 22.5 87H67.5C71.64 87 75 83.752 75 79.75V7.25ZM39.375 10.875H50.625C51.66 10.875 52.5 11.687 52.5 12.6911C52.5 13.688 51.66 14.5 50.625 14.5H39.375C38.3438 14.5 37.5 13.688 37.5 12.6911C37.5 11.687 38.3438 10.875 39.375 10.875ZM45 76.125C42.9263 76.125 41.25 74.501 41.25 72.5C41.25 70.499 42.9263 68.875 45 68.875C47.07 68.875 48.7463 70.499 48.7463 72.5C48.7463 74.501 47.07 76.125 45 76.125ZM63.75 65.25H26.25V18.125H63.75V65.25Z" fill="#2B6777"/>
                     </svg>
                     </IconContainer>
-                 <NeckLinks to = "home"> Test Applications </NeckLinks>
+                 <NeckLinks to = "/login"> Test Applications </NeckLinks>
                   </NeckItem>
             
 
@@ -92,7 +94,7 @@ const Body = () => {
                     <path d="M89.9998 7.25V87H8.18164V7.25H20.4544C25.4862 7.25 29.3766 3.3205 32.7271 0H65.4544C68.8089 3.3205 72.6994 7.25 77.7271 7.25H89.9998ZM44.9998 10.875C44.9998 12.876 46.8326 14.5 49.0907 14.5C51.353 14.5 53.1816 12.876 53.1816 10.875C53.1816 8.874 51.353 7.25 49.0907 7.25C46.8326 7.25 44.9998 8.874 44.9998 10.875ZM81.818 14.5H65.4544L57.2725 21.75H41.3303L32.7271 14.5H16.3635V79.75H81.818V14.5ZM28.6362 49.7676L32.1339 46.9002C36.2248 48.6548 38.8225 49.9888 43.4248 52.896C52.0689 44.1996 57.788 39.788 68.4039 33.9336L69.5453 36.2536C60.7866 43.0288 54.3721 50.5687 45.1348 65.25C39.4362 59.305 35.6357 55.5133 28.6362 49.7676Z" fill="#2B6777"/>
                     </svg>
                     </IconContainer>
-                      <NeckLinks to = "home"> Review Profiles </NeckLinks>
+                      <NeckLinks to = "/login"> Review Profiles </NeckLinks>
                   </NeckItem>
                  
 
@@ -107,8 +109,8 @@ const Body = () => {
                 <Text>
                     Take me where <br/> I belong
                 </Text>
-                <LoginButton>
-                    Login
+                <LoginButton >
+                Login
                 </LoginButton>
             </BoxContainer>
         </Rone>
