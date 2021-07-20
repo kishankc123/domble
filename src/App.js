@@ -1,8 +1,5 @@
 import {BrowserRouter as Router} from 'react-router-dom'
 import Body from './Components/LandingPage/Body/index';
-import LandingpageTwo from './Components/LandingpageTwo/Body/index';
-import LandingpageThree from './Components/LandingpageThree/Body/index';
-import LandingpageFour from './Components/LandingpageFour/Body/index';
 
 import Login from './Components/Login/login';
 import {  Route, Switch } from 'react-router-dom';
@@ -17,13 +14,10 @@ import AboutUs from './Pages/aboutus/aboutus';
 function App() {
   return (
     <Router >
-      <Body/>
-      <LandingpageTwo/>
-      <LandingpageThree/>
-      <LandingpageFour/>
+   
 
       <Switch>
-        
+      <Route exact path = "/" component = { Body} />
       <Route path="/login" component={Login }/>
       <Route path = "/register" component = { Register } /> 
         <Route path = "/detailform1" component = { DetailForm1 }/> 
