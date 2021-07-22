@@ -1,4 +1,4 @@
-import React ,{Component} from 'react'
+import React  from 'react'
 import {FaBars} from 'react-icons/fa'
 import { useHistory } from "react-router-dom";
 

@@ -14,6 +14,11 @@
     handleclick=()=>{
         this.props.history.push("/register");
     }
+
+    
+    navigateTo=()=>{
+        this.props.history.push("/plBody");
+    }
   
     handleSubmitForm=(event)=>{
 
@@ -206,7 +211,7 @@ const text3={
                  <RegisterInput icons={"./icons/user.svg"} value={"Username"} handlechange={this.getUsername}/>
                  <RegisterInput icons={"./icons/lock.svg"} value={"Password"} handlechange={this.getPassword} is_pass={true}/>
 
-               <input type="submit" value="login" style={btn2}></input>
+               <input type="submit" value="login" style={btn2} onClick={this.navigateTo}></input>
            </form>
 
 

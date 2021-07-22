@@ -3,9 +3,7 @@ import {Link as LinkR} from 'react-router-dom'  //For importing Link
 import {Link as LinkScroll} from 'react-scroll' // For scroll in Nav Menu
 
 export const Nav = styled.nav` 
-position:-webkit-sticky;
 position:sticky;
-
 background: #85B8E7;
 height:60px;
 display: flex;
