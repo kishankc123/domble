@@ -1,8 +1,12 @@
 import "./Info.css";
 import { AiFillStar } from "react-icons/ai";
-import Header from "./Header";
+import Header from '../header';
+import { useHistory } from "react-router";
 
 const Info = () => {
+  const history = useHistory();
+    const navigateTo = () => history.push('/form');
+
   return (
     <>
   <Header/>
@@ -39,7 +43,7 @@ const Info = () => {
           look like readable English.
         </p>
 
-        <button className="btn-check-website">Search</button>
+        <button className="btn-check-website" onClick={navigateTo}>Search</button>
       </section>
     </div>
   </>

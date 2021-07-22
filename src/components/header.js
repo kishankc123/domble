@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./header.css";
 
 const Header = () => {
   return (
@@ -13,12 +13,13 @@ const Header = () => {
             <a href="#">About Us</a>
           </li>
           <li>
-            <a href="#">Sign Out</a>
+            <a href="#">Dashboard</a>
           </li>
         </ul>
       </nav>
     </header>
   );
 };
+
 
 export default Header;

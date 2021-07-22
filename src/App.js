@@ -13,6 +13,8 @@ import AboutUs from './Pages/aboutus/aboutus';
 import plBody from './Components/PostLogin/Body';
 import Info from './Components/PostLogin/Info';
 import Welcome from './Components/PostLogin/Welcome';
+import FormSignup from './Components/Survey/FormSignup';
+import FormSuccess from './Components/Survey/FormSuccess';
 
 function App() {
   return (
@@ -31,6 +33,11 @@ function App() {
       <Route path="/welcome" component={Welcome}/>
       <Route path="/plBody" component={plBody}/>
       <Route path="/info" component={Info}/>
+      <Route path="/form" component={FormSignup}/>
+      <Route path="/formSuccess" component={FormSuccess}/>
+
+
+
 
         </Switch>
    </Router>

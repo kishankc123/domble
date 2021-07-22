@@ -40,6 +40,7 @@ text-align: center;
 color: #85B8E7;
 position:relative;
 margin-right: -600px;
+margin-top: 0px;
 @media screen and (max-width : 768px)
 {
     display: none;
@@ -50,7 +51,7 @@ export const NavItem =styled.li
 ` 
 padding-right:25px;
 padding-left:25px;
-padding-top:60px;
+padding-top:40px;
 height: 80px;
 `;
 
@@ -122,7 +123,7 @@ export const NeckItem =styled.li
 align-items:Center;
 padding-right:20px;
 padding-left:20px;
-padding-top:60px;
+padding-top:30px;
 height: 100px;
 `;
 
@@ -243,7 +244,7 @@ position: relative;
 top: 30%;
 left: 30%;
 right: 30%;
-font-family: Poppins;
+font-family: Times New Roman;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -329,7 +330,7 @@ top: 200px;
 bottom: 25px;
 opacity:100%;
 
-font-family: Poppins;
+font-family: Times New Roman;
 font-style: normal;
 font-weight: normal;
 font-size: 36px;
@@ -399,7 +400,7 @@ right:40%
 top: 50%;
 bottom: 75px;
 
-font-family: Poppins;
+font-family: Times New Roman;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;

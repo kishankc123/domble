@@ -1,8 +1,9 @@
 import "./Body.css";
-import "./Header.js";
+import Header from '../header'
 import Card from "./Card";
-import Header from "./Header.js";
+
 import Welcome from "./Welcome";
+
 
 const plBody = () => {
   return (

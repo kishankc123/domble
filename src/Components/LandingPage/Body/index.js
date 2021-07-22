@@ -45,7 +45,7 @@ const Body = () => {
                   </NavItem>
 
                   <NavItem>
-                      <NavLinks to = "dashboard"> FAQs</NavLinks>
+                      <NavLinks to = "aboutus"> About Us</NavLinks>
                   </NavItem>
 
                   <NavItem>
